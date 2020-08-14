@@ -1,0 +1,146 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+{   "key": "ctrl+shift+l",
+    "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+    "when": "editorTextFocus" },
+{   "key": "alt+shift+i", 
+    "command": "editor.action.selectHighlights",
+    "when": "editorFocus" },
+
+{   "key": "ctrl+shift+[",
+    "command": "markdown.extension.editing.toggleHeadingDown",
+    "when": "editorTextFocus && editorLangId == 'markdown'" },
+{   "key": "ctrl+shift+]",
+    "command": "markdown.extension.editing.toggleHeadingUp",
+    "when": "editorTextFocus && editorLangId == 'markdown'"
+},
+{
+    "key": "alt+left",
+    "command": "workbench.action.navigateBack"
+},
+{
+    "key": "alt+-",
+    "command": "-workbench.action.navigateBack"
+},
+{
+    "key": "alt+right",
+    "command": "workbench.action.navigateForward"
+},
+{
+    "key": "shift+alt+-",
+    "command": "-workbench.action.navigateForward"
+},
+{
+    "key": "f1",
+    "command": "workbench.action.terminal.toggleTerminal"
+},
+{
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal"
+},
+{
+    "key": "ctrl+f1",
+    "command": "workbench.action.terminal.new"
+},
+{
+    "key": "ctrl+shift+`",
+    "command": "-workbench.action.terminal.new"
+},
+{
+    "key": "ctrl+shift+v",
+    "command": "-markdown.extension.togglePreview"
+},
+{
+    "key": "ctrl+shift+v",
+    "command": "-markdown.showPreview",
+    "when": "editorLangId == 'markdown'"
+},
+{
+    "key": "ctrl+shift+t",
+    "command": "hie.commands.showType",
+    "when": "editorTextFocus"
+},
+{
+    "key": "ctrl+alt+t",
+    "command": "-hie.commands.showType",
+    "when": "editorTextFocus"
+},
+{
+    "key": "ctrl+shift+right",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+},
+{
+    "key": "ctrl+shift+left",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+},
+{
+  "key": "ctrl+numpad5",
+  "command": "extension.coq.interpretToPoint",
+  "when": "resourceScheme == 'coq-view'"
+},
+{
+  "key": "ctrl+alt+right",
+  "command": "-extension.coq.interpretToPoint",
+  "when": "resourceScheme == 'coq-view'"
+},
+{
+  "key": "ctrl+numpad5",
+  "command": "extension.coq.interpretToPoint",
+  "when": "editorTextFocus && editorLangId == 'coq'"
+},
+{
+  "key": "ctrl+alt+right",
+  "command": "-extension.coq.interpretToPoint",
+  "when": "editorTextFocus && editorLangId == 'coq'"
+},
+{
+  "key": "ctrl+numpad1",
+  "command": "extension.coq.stepForward",
+  "when": "editorTextFocus && editorLangId == 'coq'"
+},
+{
+  "key": "ctrl+alt+down",
+  "command": "-extension.coq.stepForward",
+  "when": "editorTextFocus && editorLangId == 'coq'"
+},
+{
+  "key": "ctrl+numpad1",
+  "command": "extension.coq.stepForward",
+  "when": "resourceScheme == 'coq-view'"
+},
+{
+  "key": "ctrl+alt+down",
+  "command": "-extension.coq.stepForward",
+  "when": "resourceScheme == 'coq-view'"
+},
+{
+  "key": "ctrl+numpad7",
+  "command": "extension.coq.stepBackward",
+  "when": "editorTextFocus && editorLangId == 'coq'"
+},
+{
+  "key": "ctrl+alt+up",
+  "command": "-extension.coq.stepBackward",
+  "when": "editorTextFocus && editorLangId == 'coq'"
+},
+{
+  "key": "ctrl+numpad7",
+  "command": "extension.coq.stepBackward",
+  "when": "resourceScheme == 'coq-view'"
+},
+{
+  "key": "ctrl+alt+up",
+  "command": "-extension.coq.stepBackward",
+  "when": "resourceScheme == 'coq-view'"
+},
+{
+  "key": "ctrl+shift+m",
+  "command": "-workbench.actions.view.problems"
+},
+{
+  "key": "ctrl+shift+m",
+  "command": "editor.action.selectToBracket"
+}
+]

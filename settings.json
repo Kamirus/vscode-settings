@@ -1,0 +1,115 @@
+{
+ // PureScript
+    "[purescript]": {
+        "editor.renderIndentGuides": false
+    },
+    // "purescript.pursExe": "/home/kamirus/.nvm/versions/node/v10.2.1/bin/purs",
+    // "purescript.pursExe": "/home/kamirus/purescript/versions/0.12/purs",
+    "purescript.pursExe": "purs",
+    // "purescript.pursExe": "./node_modules/.bin/purs",
+ // Haskell
+    "[haskell]": {
+        "editor.renderIndentGuides": false,
+        "editor.defaultFormatter": "vigoo.stylish-haskell"
+    },
+    "languageServerHaskell.hieExecutablePath": "/home/kamirus/.local/bin/hie",
+ // Ocaml Configuration
+    "files.associations": {
+        "*.ml": "ocaml",
+        "*.mll": "ocaml",
+        "*.mly": "ocaml",
+        "*.mli": "ocaml"
+    },
+ // Python Configuration
+    "[python]": {
+        "editor.tabSize": 4
+    },
+    "python.pythonPath": "/usr/bin/python3",
+    "python.linting.mypyEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": false,
+    "python.linting.flake8Args": [],
+    "python.linting.mypyArgs": [
+        "--strict-optional",
+        "--ignore-missing-imports",
+        "--follow-imports=silent"
+    ],
+    "python.venvPath": "~/.virtualenvs",    
+ // TypeScript
+    "javascript.format.enable": false,    
+ // md
+ "[markdown]": {
+   "editor.wordWrap": "on",
+   "editor.quickSuggestions": false,
+   "editor.formatOnSave": true
+ },
+ "[latex]": {
+   "editor.formatOnPaste": false,
+   "editor.formatOnSave": false,
+   "editor.wordWrap": "bounded",
+   "editor.suggestSelection": "recentlyUsedByPrefix"
+ },
+ "[coq]": {
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.renderIndentGuides": false
+ },
+ // Other
+    "files.autoSave": "onFocusChange",
+    "editor.fontFamily": "'Monospace'",
+    "editor.fontSize": 17,
+    "editor.tabSize": 2,
+    "window.zoomLevel": 0,
+    "workbench.colorCustomizations": {
+        "editor.selectionHighlightBackground": "#2e54ff94"
+    },
+    "workbench.colorTheme": "Monokai",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "json.format.enable": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true,
+        "**/__pycache__": true
+    },
+    "markdown-pdf.styles": [
+        // "/home/kamirus/css-markdown/github-markdown.css"
+        "/home/kamirus/css-markdown/github.css"
+    ],
+    "extensions.ignoreRecommendations": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "markdown-pdf.displayHeaderFooter": false,
+    "editor.detectIndentation": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.tabCompletion": "onlySnippets", // true,
+    "ruby.codeCompletion": "rcodetools",
+    "ruby.format": "rubocop",
+    "ruby.intellisense": "rubyLocate",
+    "ruby.useLanguageServer": true,
+    "editor.rulers": [
+      80
+    ],
+    // "editor.scrollbar.vertical": "hidden",
+    // "editor.scrollbar.verticalScrollbarSize": 1,
+    // "editor.minimap.maxColumn": 27,
+    "workbench.activityBar.visible": false,
+    "editor.minimap.enabled": false,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "window.titleBarStyle": "native",
+    "search.useIgnoreFiles": false,
+    "breadcrumbs.enabled": true,
+    "update.mode": "none",
+    "languageServerHaskell.useCustomHieWrapper": true,
+    "languageServerHaskell.useCustomHieWrapperPath": "hie-wrapper",
+    "typescript.tsdk": "~/.nvm/versions/node/v10.2.1/lib/node_modules/typescript/lib",
+    "explorer.confirmDelete": false,
+    "stylishHaskell.runOnSave": false,
+    "stylishHaskell.showConsoleOnError": false,
+    "languageServerHaskell.diagnosticsOnChange": false,
+    "purescript.buildCommand": "spago build --purs-args --json-errors",
+    "purescript.outputDirectory": "output/",
+    // "markdown-pdf.highlightStyle": "github.css"
+  }
